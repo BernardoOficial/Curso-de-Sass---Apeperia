@@ -22,6 +22,10 @@
   width: 48%;
   display: inline-block;
   vertical-align: top;
+
+  @media #{$mq-mobile} {
+    width: auto;
+  }
 }
 
 .post-destaque {
@@ -43,36 +47,4 @@
 
 .posts-antigos a:hover {
   text-decoration: underline;
-}
-
-/** Contato **/
-.contato input,
-.contato button {
-  display: block;
-}
-
-form {
-  margin: 0 auto;
-  width: 50%;
-}
-
-.contato input,
-textarea {
-  width: 100%;
-  margin-bottom: .8em;
-  padding: 4px 8px;
-  @include border-radius;
-  border: 2px solid #ccc;
-}
-
-.contato button {
-  margin: 0 auto;
-  background: $cor-padrao;
-  border: 0;
-  color: $cor-branca;
-  width: 210px;
-  height: 38px;
-  font-size: 1.2em;
-  @include border-radius;
-  @include sombra-padrao;
 }

@@ -1,4 +1,10 @@
 // Variáveis no meu Sass
-$cor-padrao: #c24e4b;
-$cor-branca: #ffffff;
+$cor-padrao: darken(#c24e4b, 0);
+$cor-branca: lighten(#ffffff, 0);
 $raio: 0.5em;
+
+// adjust-hue();
+// saturate(); 
+// complement();
+
+$mq-mobile: "(max-width: 980px)";
