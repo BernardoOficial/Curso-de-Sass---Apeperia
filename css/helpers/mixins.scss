@@ -14,3 +14,7 @@
   overflow: hidden;
   background-repeat: no-repeat;
 }
+
+@function multiplica-tam-fonte($valor) {
+    @return round($valor * $tam-fonte);
+}
